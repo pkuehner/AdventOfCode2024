@@ -2,10 +2,6 @@ from enum import Enum
 import functools
 from typing import List
 
-class Directions(Enum):
-    ASC = 0
-    DESC = 1
-
 def check_line(line: str) -> int:
     elements = list(map(lambda x: int(x), line.split(" ")))
     score = 0
