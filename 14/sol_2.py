@@ -43,6 +43,7 @@ with open("input") as file:
             arr[x, y] = 1
         if not double:
             print(j+1)
+            break
     
         # with open(f"./files/{j}", 'w') as file:
         #     lines = []
